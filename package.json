@@ -1,0 +1,39 @@
+{
+  "name": "react-three-fiber-vrm",
+  "version": "1.0.0",
+  "description": "load and display a vrm model using r3f and three-vrm",
+  "keywords": [
+    "react-three-fiber",
+    "r3f",
+    "vrm",
+    "three-vrm"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@pixiv/three-vrm": "0.6.4",
+    "@react-three/drei": "7.1.0",
+    "@react-three/fiber": "7.0.4",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.9",
+    "@types/three": "0.130.0",
+    "leva": "0.9.13",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.130.1",
+    "typescript": "4.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
